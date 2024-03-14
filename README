@@ -1,9 +1,15 @@
-<strong>Read me!
-<p>I'm finally finished. The first time I saw something like this, Reference didn't seem difficult, but it was difficult! Thank you youtube and me for your hard work.</p>
+** # Frontend Mentor - Sunnyside agency landing page **
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JS</li>
+</ul
+
+```
+I'm finally finished. The first time I saw something like this, the Reference didn't seem HARD, but it was HARD! Thank you YouTube and me for your hard work.
+In my code, I separate the files for HTML, CSS(Header.css,footer.css,content.css,...), and JS. To keep myself from being confused while working.
+```
 
 
-<p>In my code, I separate the files for HTML, CSS(Header.css ,footer.css,content.css,...), and JS. To keep myself from being confused while working.</p>
-
-
-Thanks to Web Dev Creative Chanel on Youtube for the JS.
-Link ===> https://www.youtube.com/watch?v=GdrbE-s5DgQ&t=191s
+> Refferend
+__Thanks to [Web Dev Creative]( https://www.youtube.com/watch?v=GdrbE-s5DgQ&t=191s) Chanel on Youtube for the JS.__
