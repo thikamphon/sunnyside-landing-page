@@ -1,0 +1,417 @@
+@media screen and (max-width:1280px) {
+    p {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 53px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
+
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+
+    }
+
+    h6 {
+        font-size: 14px;
+
+    }
+
+    #client-box {
+        margin-inline: 3vh;
+        margin-block: 10vh;
+    }
+
+    #content-box img {
+        height: 6rem;
+    }
+
+    .content-text {
+        margin-inline: 6vh;
+    }
+
+    .text-absolute-box p {
+        width: 55%;
+    }
+
+    .content-relative {
+        margin-top: 50%;
+    }
+
+    .card-clients {
+        grid-template-columns: 28% 28% 28%;
+    }
+
+    .menu a {
+        margin-inline: 20px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    div .attribution {
+        margin: 0;
+    }
+
+    .profile-clients {
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    h1 {
+        font-size: 43px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+
+    }
+
+    h6 {
+        font-size: 14px;
+
+    }
+
+    #absolute-box {
+        margin-inline: 0;
+    }
+
+    #nav-menu a {
+        margin-inline: 1rem;
+    }
+
+    button {
+        padding: 18px;
+        padding-inline: 20px;
+    }
+
+    #content-box {
+        margin-top: 7%;
+        gap: 8vh;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .text-absolute-box p {
+        width: 65%;
+    }
+
+    .card-clients {
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .content-text a {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    h1 {
+        font-size: 33px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 14px;
+
+    }
+
+    h6 {
+        font-size: 12px;
+
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #nav-menu {
+        margin: 10px;
+        margin-top: 2rem;
+    }
+
+    .content-text {
+        margin-inline: 3vh;
+    }
+
+    .content-text p {
+        margin-block: 20px;
+        line-height: 20px;
+
+    }
+
+    .content-text a {
+        font-size: 14px;
+    }
+
+    .text-absolute-box p {
+        width: 70%;
+        line-height: 20px;
+    }
+
+    #logo img {
+        height: 30px;
+    }
+
+    #content-box {
+        gap: 4vh;
+    }
+
+    #content-box img {
+        height: 4rem;
+    }
+
+    .card-clients p {
+        line-height: 20px;
+        margin-top: 4vh;
+    }
+
+    .profile-clients {
+        width: 60px;
+    }
+
+    #client-box {
+        margin-block: 8vh;
+    }
+
+    .card-clients {
+        grid-template-columns: 30% 30% 30%;
+    }
+
+    .flex-footer div {
+        margin-bottom: 1.5rem;
+    }
+
+    .card-clients-row {
+        grid-template-rows: auto auto auto;
+    }
+
+    div .attribution {
+        margin: 0;
+    }
+
+    #content-box {
+        height: 10rem;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .toggle_btn {
+        display: block;
+        color: #fff;
+        font-size: 1.5rem;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .toggle_btn i {
+        margin-right: 1.5rem;
+    }
+
+    button {
+        width: 100%;
+        padding-block: 10px;
+    }
+
+    ul {
+        display: block;
+    }
+
+    .drowdown-menu{
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+
+    #content-box {
+        height: unset
+    }
+    #img-right {
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    #bg-header {
+        height: 35rem;
+        background-color: rgba(61, 190, 255, 255);
+        overflow: hidden;
+    }
+
+    #bg-header img {
+        width: 200%;
+        height: 27rem;
+        margin-top: 40%;
+        margin-left: -50%;
+    }
+
+    .content-text {
+        margin-inline: 2.2vh;
+    }
+
+    .content-box {
+        text-align: center;
+    }
+
+    #content-box {
+        margin-top: 5rem;
+        gap: 8vh;
+    }
+
+    p {
+        font-size: 18px;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 37px;
+    }
+
+    h2 {
+        font-size: 33px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 27px;
+
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 18px;
+
+    }
+
+    h6 {
+        font-size: 12px;
+
+    }
+
+    .text-absolute-box p {
+        width: 90%;
+        line-height: 24px;
+    }
+
+    .content-relative {
+        margin-top: 25rem;
+    }
+
+
+    #logo img {
+        height: 20px;
+    }
+
+    #content-box img {
+        height: 6rem;
+    }
+
+    .content-text {
+        padding-block: 4rem;
+    }
+
+    .img-graphic-photo img {
+        width: 200%;
+        height: 40rem;
+        left: 50%;
+        margin-left: -50%;
+        top: 50%;
+    }
+
+    .content-inline,
+    .text-absolute-box {
+        grid-template-columns: 100%;
+    }
+
+    .text-absolute-box {
+        grid-template-columns: auto;
+    }
+
+    .card-clients {
+        grid-template-columns: auto;
+        row-gap: 4vh;
+    }
+
+    .card-clients p {
+        margin-block: 4vh;
+        line-height: 30px;
+    }
+
+    .profile-clients {
+        width: 70px;
+        margin-top: 30px;
+    }
+
+    #gallery {
+        grid-template-columns: 50% 50%;
+    }
+
+    .flex-footer div {
+        margin-bottom: 2rem;
+    }
+
+    div .attribution {
+        margin: 0;
+    }
+
+    #contact img {
+        width: 20px;
+        margin-inline: 10px;
+    }
+
+    .drowdown-menu{
+        left: 2rem;
+        width: unset;
+    }
+
+}
