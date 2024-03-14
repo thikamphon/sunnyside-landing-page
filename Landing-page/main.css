@@ -40,7 +40,7 @@ p {
     font-weight: 600;
 }
 
-.toggle_btn{
+.toggle_btn {
     display: none;
     color: #fff;
     font-size: 1.5rem;
@@ -48,6 +48,38 @@ p {
     overflow: hidden;
 }
 
-i{
+i {
     overflow: hidden;
+}
+
+.toggle_btn i {
+    margin-right: 1.5rem;
+}
+
+.drowdown-menu {
+    position: absolute;
+    height: 0;
+    right: 2rem;
+    top: 60px;
+    width: 250px;
+    background: rgb(255, 255, 255, .1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.drowdown-menu li {
+    padding: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drowdown-menu li a {
+    color: #fff;
+}
+
+.drowdown-menu.open {
+    height: fit-content;
+    padding: 10px;
 }

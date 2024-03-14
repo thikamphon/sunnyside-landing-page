@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
     <title>Frontend Mentor | Sunnyside agency landing page</title>
+
     <script src="https://kit.fontawesome.com/dbd166eb98.js" crossorigin="anonymous"></script>
+
+    <script src="menu.js"></script>
 
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./header.css">
@@ -20,20 +22,7 @@
 
     <link rel="stylesheet" href="./responsive.css">
 
-    <link rel="stylesheet" href="./menu.js">
-
-
 </head>
-
-
-<!-- 
-
-
-- Mobile: 375px
-- Desktop: 1440px
-
-
- -->
 
 
 <body>
@@ -53,7 +42,7 @@
                         <li><a href="">About</a></li>
                         <li><a href="">Services</a></li>
                         <li><a href="">Projects</a></li>
-                        <li> <button type="button">CONTACT</button></li>
+                        <li><button type="button">CONTACT</button></li>
                     </ul>
 
                 </div>
@@ -67,7 +56,7 @@
                     <li><a href="">About</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">Projects</a></li>
-                    <li> <button type="button">CONTACT</button></li>
+                    <li> <button>CONTACT</button></li>
                 </ul>
 
             </div>
@@ -234,6 +223,22 @@
         </div>
     </footer>
 
+
+    <!-- <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i');
+        const dropDownMenu = document.querySelector('.drowdown-menu');
+
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open');
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen 
+            ? 'fa-solid fa-xmark' 
+            : 'fa-solid fa-bars'
+        }
+    </script> -->
 </body>
 
 </html>

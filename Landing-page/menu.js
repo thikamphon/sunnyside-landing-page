@@ -1,11 +1,17 @@
-// const toggleBtn = document.querySelector('.toggle_btn')
-// const toggleBtnIcon = document.querySelector('.toggle_btn i');
-// const dropDownMenu = document.querySelector('.dropdown_menu');
+window.onload = pageLoad;
 
+function pageLoad() {
+    var toggleBtn = document.querySelector('.toggle_btn')
+    toggleBtn.onclick = start;
+}
 
-// toggleBtn.onclick = myFuntion () {
-//     dropDownMenu.classList.toggle('open');
-//     const isOpen = dropDownMenu.classList.contains('open')
+function start() {
+    var dropDownMenu = document.querySelector('.drowdown-menu');
+    var toggleBtnIcon = document.querySelector('.toggle_btn i');
+    dropDownMenu.classList.toggle('open');
+    const isOpen = dropDownMenu.classList.contains('open');
 
-//     toggleBtn.classList=isOpen?'fa-solid fa-xmark':'fa-solid fa-bars'
-// }
+    toggleBtnIcon.classList = isOpen 
+    ? 'fa-solid fa-xmark' 
+    : 'fa-solid fa-bars'
+}

@@ -225,6 +225,9 @@
         margin-bottom: 1.5rem;
     }
 
+    .card-clients-row {
+        grid-template-rows: auto auto auto;
+    }
 
     div .attribution {
         margin: 0;
@@ -236,34 +239,6 @@
 
     .nav-menu {
         display: none;
-    }
-
-    .drowdown-menu {
-        position: absolute;
-        height: 0;
-        right: 2rem;
-        top: 60px;
-        width: 300px;
-        background: rgb(255, 255, 255, .1);
-        backdrop-filter: blur(15px);
-        border-radius: 10px;
-        overflow: hidden;
-    }
-
-    .drowdown-menu li {
-        padding: .7rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .drowdown-menu li a {
-        color: #fff;
-    }
-
-    .drowdown-menu.open{
-        height: fit-content;
-        padding: 10px;
     }
 
     .toggle_btn {
@@ -284,6 +259,10 @@
     }
 
     ul {
+        display: block;
+    }
+
+    .drowdown-menu{
         display: block;
     }
 
