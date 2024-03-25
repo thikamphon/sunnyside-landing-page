@@ -32,4 +32,4 @@ In my code, I separate the files for HTML, CSS(Header.css,footer.css,content.css
 
 # Acknowledgments
 
-- [@Web Dev Creative]( https://www.youtube.com/watch?v=GdrbE-s5DgQ&t=191s)
+- script.js - [@Web Dev Creative]( https://www.youtube.com/watch?v=GdrbE-s5DgQ&t=191s)
