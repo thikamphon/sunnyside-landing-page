@@ -1,0 +1,95 @@
+/* header */
+#header-box {
+    display: grid;
+    position: relative;
+    overflow: hidden;
+}
+
+#bg-header {
+    width: auto;
+    height: 100%;
+    margin: auto;
+}
+
+#absolute-box {
+    position: absolute;
+    width: -webkit-fill-available;
+    margin-inline: 7%;
+    overflow: hidden;
+}
+
+#nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    margin-top: 3rem;
+}
+
+#nav-menu a {
+    color: aliceblue;
+    font-size: 19.5px;
+    font-weight: 600;
+    margin-right: 3.5rem;
+}
+
+button {
+    background-color: aliceblue;
+    border-style: none;
+    color: hsl(212, 27%, 19%);
+
+    padding: 22px;
+    padding-inline: 37px;
+    border-radius: 50px;
+
+    font-family: "Fraunces";
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    height: 40px;
+    width: auto;
+}
+
+#content-box {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    margin-top: 10%;
+    gap: 15vh;
+    overflow: hidden;
+}
+
+#content-box img {
+    width: auto;
+    height: 8rem;
+}
+
+h1 {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 63px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 7px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.drowdown-menu{
+    display: none;
+
+}
+
+.drowdown-menu li a {
+    color: #fff;
+}
+
+

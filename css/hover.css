@@ -1,0 +1,57 @@
+/*      header       */
+#nav-menu button:hover {
+    background-color: rgba(240, 248, 255, 0.473);
+    border: aliceblue;
+    color: aliceblue;
+}
+
+/*     content      */
+#hover-yellow,
+#hover-red {
+    position: relative;
+}
+
+#hover-yellow::after {
+    content: "";
+    position: absolute;
+    background-color: yellow;
+    height: 4px;
+    width: o;
+    left: 0;
+    bottom: -10px;
+    transition: .4s ease;
+    border-radius: 25px;
+}
+
+#hover-red::after {
+    content: "";
+    position: absolute;
+    background-color: #fe7062;
+    height: 4px;
+    width: o;
+    left: 0;
+    bottom: -10px;
+    transition: .4s ease;
+    border-radius: 25px;
+}
+
+#hover-yellow:hover,
+#hover-red:hover {
+    margin-left: 10px;
+    transition: .4s ease;
+}
+
+#hover-yellow:hover::after,
+#hover-red:hover::after {
+    z-index: -9;
+    bottom: 1px;
+    width: 100%;
+    height: 10px;
+}
+
+/*      footer       */
+.flex-footer .menu a:hover,
+.flex-footer #contact a:hover
+,.attribution a:hover{
+    filter: brightness(1000%);
+}
